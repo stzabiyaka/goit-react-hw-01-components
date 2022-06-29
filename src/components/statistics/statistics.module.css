@@ -1,0 +1,56 @@
+@value textLightColor from "components/utilities/variables.module.css";
+
+.statList {
+    box-sizing: border-box;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    width: 60%;
+    min-width: 500px;
+
+}
+
+.item {
+    display: block;
+    box-sizing: border-box;
+    flex-basis: calc(100% / 5);
+    padding: 20px 5px;
+}
+
+.item:first-child {
+    background-color: skyblue;
+}
+
+.item:nth-child(2) {
+    background-color: blueviolet;
+}
+
+.item:nth-child(3) {
+    background-color: crimson;
+}
+
+.item:nth-child(4) {
+    background-color: cadetblue;
+}
+
+.item:last-child {
+    background-color: coral;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+    
+    color: textLightColor;
+
+    font-size: 20px;
+    text-align: center;
+}
+
+.percentage {
+    composes: label;
+    margin-bottom: 0;
+
+    font-size: 25px;
+}

@@ -1,0 +1,9 @@
+@value textLightColor: #ffffff;
+@value textMiddleColor: #808080;
+
+@value backgroundLightColor: #ffffff;
+@value backgroundMiddleColor: #f1f1f1;
+
+@value borderMiddleColor: rgb(187, 187, 187);
+
+@value shadowMiddle: 0 5px 10px grey;
