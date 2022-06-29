@@ -6,4 +6,4 @@
 
 @value borderMiddleColor: rgb(187, 187, 187);
 
-@value shadowMiddle: 0 5px 10px grey;
+@value shadowMiddle: 0 5px 10px #808080;
