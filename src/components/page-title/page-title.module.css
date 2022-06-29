@@ -1,4 +1,4 @@
-@value backgroundLightColor from "components/utilities/variables.module.css";
+@value backgroundLightColor from "utilities/variables.module.css";
 .pageTitle {
     display: block;
     width: 100%;

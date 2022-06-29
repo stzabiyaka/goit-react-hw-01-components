@@ -1,4 +1,4 @@
-@value textMiddleColor, backgroundLightColor, backgroundMiddleColor, borderMiddleColor, shadowMiddle from "components/utilities/variables.module.css";
+@value textMiddleColor, backgroundLightColor, backgroundMiddleColor, borderMiddleColor, shadowMiddle from "utilities/variables.module.css";
 
 .profile {
     margin: 0 auto;

@@ -1,4 +1,4 @@
-@value backgroundLightColor, shadowMiddle from "components/utilities/variables.module.css";
+@value backgroundLightColor, shadowMiddle from "utilities/variables.module.css";
 
 .friendList {
     display: block;

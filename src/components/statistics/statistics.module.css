@@ -1,4 +1,4 @@
-@value textLightColor, backgroundLightColor, shadowMiddle from "components/utilities/variables.module.css";
+@value textLightColor, backgroundLightColor, shadowMiddle from "utilities/variables.module.css";
 
 .statistics{
     margin: 25px auto;
