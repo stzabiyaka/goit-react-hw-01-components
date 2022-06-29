@@ -4,7 +4,6 @@
     padding-top: 25px;
     padding-bottom: 25px;
     width: 100%;
-    background-color: rgb(230, 230, 230);
 }
 
 .title {
@@ -17,13 +16,4 @@
     text-align: center;
     text-transform: uppercase;
     vertical-align: middle;
-}
-
-.statistics > .title {
-    margin-bottom: 0;
-    padding: 50px 0;
-    width: 60%;
-    min-width: 500px;
-
-    background-color: backgroundLightColor;
 }

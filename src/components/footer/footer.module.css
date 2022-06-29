@@ -1,6 +1,10 @@
+@value backgroundLightColor from "components/utilities/variables.module.css";
+
 .footer {
     min-width: 300px;
     padding: 20px;
+
+    background-color: backgroundLightColor;
 }
 
 .copyright {
@@ -11,7 +15,7 @@
 }
 
 .link {
-    color: black;
+    color: #010101;
     text-decoration: none;
 }
 

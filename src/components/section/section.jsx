@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 import css from "./section.module.css";
 
-export function Section ({ children, sectionClass, title }) {
+export function Section ({ children, title }) {
     return (
-        <section className={sectionClass ? css.section + ' ' + css[sectionClass] : css.section}>
+        <section className={css.section}>
             {title && <h2 className={css.title}>{title}</h2>}
                 {children}
         </section>
@@ -12,6 +12,5 @@ export function Section ({ children, sectionClass, title }) {
 
 Section.propTypes = {
     title: PropTypes.string,
-    sectionClass: PropTypes.string,
     children: PropTypes.node
 }

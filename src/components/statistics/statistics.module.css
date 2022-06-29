@@ -1,14 +1,35 @@
-@value textLightColor from "components/utilities/variables.module.css";
+@value textLightColor, backgroundLightColor, shadowMiddle from "components/utilities/variables.module.css";
+
+.statistics{
+    margin: 25px auto;
+    width: 60%;
+    min-width: 500px;
+
+    overflow: hidden;
+
+    border-radius: 5px;
+
+    box-shadow: shadowMiddle;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 50px 0;
+
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: backgroundLightColor;
+}
 
 .statList {
     box-sizing: border-box;
     display: flex;
     padding: 0;
     margin: 0 auto;
-    list-style: none;
-    width: 60%;
-    min-width: 500px;
 
+    list-style: none;
 }
 
 .item {

@@ -15,13 +15,9 @@ export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'flex-start',
-        alignItems: 'center',
         fontSize: 40,
-        color: '#010101'
+        color: '#010101',
+        backgroundColor: 'rgb(230, 230, 230)',
       }}
     >
       <PageTitle title="React Homework #01 - Components" />
@@ -36,9 +32,7 @@ export const App = () => {
         />
       </Section>
 
-      <Section title="Upload stats" sectionClass="statistics">
-       <Statistics  stats={data} />
-      </Section>
+      <Statistics title="Upload stats" stats={data} />
       
       <Section title="Friends List">
         <FriendList friends={friends} />
