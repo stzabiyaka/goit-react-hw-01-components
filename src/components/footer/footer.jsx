@@ -1,9 +1,28 @@
-import css from "./footer.module.css";
+import PropTypes from 'prop-types';
+import css from './Footer.module.css';
 
-export function Footer () {
-    return (
-        <footer className={css.footer}>
-            <p className={css.copyright}>&copy; 2022 <a href="https://github.com/stzabiyaka" target="_blank" className={css.link} rel="noopener noreferrer nofollow">Stanislav Zabiyaka</a></p>
-        </footer>
-    );
+export function Footer({ name, href = '#' }) {
+  return (
+    <footer className={css.footer}>
+      <p className={css.copyright}>
+        &copy; 2022&nbsp;
+        {name && (
+          <a
+            href={href}
+            target="_blank"
+            className={css.link}
+            rel="noopener noreferrer nofollow"
+            title={name + '`s github'}
+          >
+            {name}
+          </a>
+        )}
+      </p>
+    </footer>
+  );
 }
+
+Footer.propTypes = {
+  name: PropTypes.string,
+  href: PropTypes.string,
+};

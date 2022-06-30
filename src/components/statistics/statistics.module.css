@@ -1,77 +1,58 @@
 @value textLightColor, backgroundLightColor, shadowMiddle from "utilities/variables.module.css";
 
-.statistics{
-    margin: 25px auto;
-    width: 60%;
-    min-width: 500px;
+.statistics {
+  margin: 25px auto;
+  width: 60%;
+  min-width: 500px;
 
-    overflow: hidden;
+  overflow: hidden;
 
-    border-radius: 5px;
+  border-radius: 5px;
 
-    box-shadow: shadowMiddle;
+  box-shadow: shadowMiddle;
 }
 
 .title {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 50px 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 50px 0;
 
-    font-size: 25px;
-    text-align: center;
-    text-transform: uppercase;
-    background-color: backgroundLightColor;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: backgroundLightColor;
 }
 
 .statList {
-    box-sizing: border-box;
-    display: flex;
-    padding: 0;
-    margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
 
-    list-style: none;
+  list-style: none;
 }
 
 .item {
-    display: block;
-    box-sizing: border-box;
-    flex-basis: calc(100% / 5);
-    padding: 20px 5px;
-}
-
-.item:first-child {
-    background-color: skyblue;
-}
-
-.item:nth-child(2) {
-    background-color: blueviolet;
-}
-
-.item:nth-child(3) {
-    background-color: crimson;
-}
-
-.item:nth-child(4) {
-    background-color: cadetblue;
-}
-
-.item:last-child {
-    background-color: coral;
+  display: block;
+  box-sizing: border-box;
+  flex-basis: calc(100% / 5);
+  padding: 20px 5px;
 }
 
 .label {
-    display: block;
-    margin-bottom: 10px;
-    
-    color: textLightColor;
+  display: block;
+  margin-bottom: 10px;
 
-    font-size: 20px;
-    text-align: center;
+  color: textLightColor;
+  text-shadow: shadowMiddle;
+
+  font-size: 20px;
+  text-align: center;
 }
 
 .percentage {
-    composes: label;
-    margin-bottom: 0;
+  composes: label;
+  margin-bottom: 0;
 
-    font-size: 25px;
+  font-size: 25px;
 }

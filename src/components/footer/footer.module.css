@@ -1,24 +1,25 @@
 @value backgroundLightColor from "utilities/variables.module.css";
 
 .footer {
-    min-width: 300px;
-    padding: 20px;
+  min-width: 300px;
+  padding: 20px;
 
-    background-color: backgroundLightColor;
+  background-color: backgroundLightColor;
 }
 
 .copyright {
-    margin: 0;
-    font-size: 16px;
-    font-weight: 500;
-    text-align: center;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
 }
 
 .link {
-    color: #010101;
-    text-decoration: none;
+  color: #010101;
+  text-decoration: none;
 }
 
-.link:hover, .link:focus {
-    color: coral;
+.link:hover,
+.link:focus {
+  color: coral;
 }
