@@ -7,7 +7,7 @@ export function FriendList({ friends }) {
     <ul className={css.friendList}>
       {friends.map(({ id, isOnline, avatar, name }) => (
         <FriendListItem
-          id={id}
+          key={id}
           isOnline={isOnline}
           avatar={avatar}
           name={name}
