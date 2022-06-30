@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import css from './FriendListItem.module.css';
 
 export function FriendListItem({ id, isOnline, avatar, name }) {
-  console.log('item');
   return (
     <li key={id} className={css.item}>
       <span className={isOnline ? css.statusOn : css.statusOff}></span>
