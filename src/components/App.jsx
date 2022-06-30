@@ -1,4 +1,4 @@
-import { Section } from 'components/Section/Section';
+import { Section } from 'components/temp/Section';
 import { PageTitle } from 'components/PageTitle/PageTitle';
 import { Profile } from 'components/Profile/Profile';
 import { Statistics } from 'components/Statistics/Statistics';
