@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
-import css from './Section.module.css';
+import { SectionCommon, SectionTitle } from './Section.styled';
 
 export function Section({ children, title }) {
   return (
-    <section className={css.section}>
-      {title && <h2 className={css.title}>{title}</h2>}
+    <SectionCommon>
+      {title && <SectionTitle>{title}</SectionTitle>}
       {children}
-    </section>
+    </SectionCommon>
   );
 }
 

@@ -1,10 +1,12 @@
-.section {
+import styled from '@emotion/styled';
+
+export const SectionCommon = styled.section`
   padding-top: 25px;
   padding-bottom: 25px;
   width: 100%;
-}
+`;
 
-.title {
+export const SectionTitle = styled.h2`
   margin-top: 0;
   margin-bottom: 20px;
   margin-left: auto;
@@ -14,4 +16,4 @@
   text-align: center;
   text-transform: uppercase;
   vertical-align: middle;
-}
+`;

@@ -1,24 +1,23 @@
 import PropTypes from 'prop-types';
-import css from './Footer.module.css';
+import { PageFooter, Copyright, Link } from './Footer.styled';
 
 export function Footer({ name, href = '#' }) {
   return (
-    <footer className={css.footer}>
-      <p className={css.copyright}>
+    <PageFooter>
+      <Copyright>
         &copy; 2022&nbsp;
         {name && (
-          <a
+          <Link
             href={href}
             target="_blank"
-            className={css.link}
             rel="noopener noreferrer nofollow"
             title={name + '`s github'}
           >
             {name}
-          </a>
+          </Link>
         )}
-      </p>
-    </footer>
+      </Copyright>
+    </PageFooter>
   );
 }
 
